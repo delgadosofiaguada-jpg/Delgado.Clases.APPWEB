@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Glacier Grooming - Estilo y Cuidado Premium</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#0d1f2b",
+                    "on-secondary-container": "#c0d8e8",
+                    "surface-variant": "#1a2438",
+                    "inverse-surface": "#e0e8f0",
+                    "on-primary": "#001f2e",
+                    "secondary-container": "#1a3a4e",
+                    "error": "#ff6b6b",
+                    "on-tertiary-fixed-variant": "#4d2a73",
+                    "surface-container": "#141c2e",
+                    "surface-dim": "#0f1524",
+                    "background": "#0a0e1a",
+                    "surface-container-low": "#111828",
+                    "on-primary-fixed": "#001f2e",
+                    "inverse-primary": "#0a4c6e",
+                    "primary-container": "#0e4d6e",
+                    "tertiary-fixed-dim": "#c8a0f0",
+                    "outline": "#4a6070",
+                    "primary": "#7dd3fc",
+                    "on-tertiary-container": "#e8d0ff",
+                    "on-surface-variant": "#a0b4c4",
+                    "on-error-container": "#ffb3b3",
+                    "surface-container-highest": "#202c42",
+                    "on-primary-fixed-variant": "#004d73",
+                    "surface-container-lowest": "#0a0e1a",
+                    "primary-fixed": "#c8eaff",
+                    "surface": "#0f1524",
+                    "on-tertiary-fixed": "#1a002e",
+                    "inverse-on-surface": "#0a0e1a",
+                    "tertiary-container": "#3d2060",
+                    "on-secondary": "#001f2e",
+                    "secondary-fixed": "#c0d8e8",
+                    "surface-bright": "#1a2438",
+                    "tertiary": "#c8a0f0",
+                    "surface-tint": "#7dd3fc",
+                    "secondary": "#88b4cc",
+                    "error-container": "#3d1414",
+                    "on-tertiary": "#1a002e",
+                    "on-secondary-fixed-variant": "#2a4a5e",
+                    "outline-variant": "#2a3a48",
+                    "on-surface": "#e0e8f0",
+                    "on-background": "#e0e8f0",
+                    "tertiary-fixed": "#e8d0ff",
+                    "on-primary-container": "#c8eaff",
+                    "primary-fixed-dim": "#7dd3fc",
+                    "secondary-fixed-dim": "#88b4cc",
+                    "surface-container-high": "#1a2438",
+                    "on-error": "#1a0000"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.5rem",
+                    "lg": "1rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Inter", "sans-serif"],
+                    "display": ["Inter", "sans-serif"],
+                    "body": ["Inter", "sans-serif"],
+                    "label": ["Inter", "sans-serif"]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(15, 21, 36, 0.6);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(125, 211, 252, 0.1);
+        }
+        .glass-elevated {
+            background: rgba(15, 21, 36, 0.75);
+            backdrop-filter: blur(24px);
+            border: 1px solid rgba(125, 211, 252, 0.15);
+            box-shadow: 0 0 30px rgba(125, 211, 252, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body min-h-screen flex flex-col relative overflow-x-hidden">
+<!-- Ambient Glow Backgrounds -->
+<div class="absolute top-0 left-1/4 w-[50vw] h-[50vw] bg-primary/10 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
+<div class="absolute bottom-1/4 right-0 w-[40vw] h-[40vw] bg-tertiary/10 rounded-full blur-[100px] -z-10 pointer-events-none"></div>
+<!-- TopNavBar -->
+<header class="bg-surface/60 backdrop-blur-xl fixed top-0 w-full z-50 border-b border-primary/10 shadow-[0_0_30px_rgba(125,211,252,0.05)]">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="text-xl font-headline font-extrabold text-primary tracking-tighter flex items-center gap-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">pets</span>
+                Glacier Grooming
+            </div>
+<nav class="hidden md:flex gap-8">
+<a class="font-headline font-semibold tracking-tight text-on-surface-variant hover:text-on-surface transition-colors hover:bg-primary/10 hover:text-primary transition-all duration-300 px-3 py-1 rounded-md" href="#">Services</a>
+<a class="font-headline font-semibold tracking-tight text-on-surface-variant hover:text-on-surface transition-colors hover:bg-primary/10 hover:text-primary transition-all duration-300 px-3 py-1 rounded-md" href="#">Gallery</a>
+<a class="font-headline font-semibold tracking-tight text-on-surface-variant hover:text-on-surface transition-colors hover:bg-primary/10 hover:text-primary transition-all duration-300 px-3 py-1 rounded-md" href="#">Reviews</a>
+<a class="font-headline font-semibold tracking-tight text-on-surface-variant hover:text-on-surface transition-colors hover:bg-primary/10 hover:text-primary transition-all duration-300 px-3 py-1 rounded-md" href="#">Pricing</a>
+</nav>
+<button class="hidden md:block bg-primary/20 text-primary border border-primary/30 px-6 py-2 rounded-full font-headline font-semibold hover:bg-primary/30 transition-all shadow-[0_0_15px_rgba(125,211,252,0.2)] active:scale-95 transition-transform">
+                Book Now
+            </button>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow pt-32 pb-24 px-6 relative z-10">
+<div class="max-w-7xl mx-auto space-y-32">
+<!-- Hero Section -->
+<section class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-8">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-panel text-primary text-sm font-semibold tracking-wide">
+<span class="material-symbols-outlined text-sm">ac_unit</span>
+                        CUIDADO EXPERTO
+                    </div>
+<h1 class="font-display font-extrabold text-5xl lg:text-7xl tracking-tighter leading-tight text-on-surface">
+                        Estilo y Cuidado <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-tertiary">Premium</span> para tu Mejor Amigo
+                    </h1>
+<p class="text-on-surface-variant text-lg lg:text-xl max-w-lg leading-relaxed">
+                        Experimenta un nivel de grooming incomparable. Productos de lujo, atención personalizada y un ambiente relajante inspirado en la pureza del hielo.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<button class="bg-primary/20 text-primary border border-primary/50 px-8 py-4 rounded-full font-headline font-semibold hover:bg-primary/30 transition-all shadow-[0_0_20px_rgba(125,211,252,0.15)] active:scale-95 text-lg">
+                            Reservar Turno
+                        </button>
+<button class="px-8 py-4 rounded-full font-headline font-semibold text-on-surface-variant hover:text-primary transition-colors flex items-center justify-center gap-2">
+                            Ver Galería <span class="material-symbols-outlined">arrow_right_alt</span>
+</button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-[2rem] blur-2xl -z-10"></div>
+<img alt="Perro Golden Retriever en salón Glacier Grooming" class="w-full h-auto rounded-[2rem] border border-primary/20 shadow-[0_0_40px_rgba(125,211,252,0.1)] object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeIjpx_Rnw_JXoZneW_nsRGbIy6hol096BHjzrVGiP1NTH9RzgqHD4cmf9A5J00F2-iVQmNidXp6OJYrOVylhwPK0P-qBJr2-IHb9-4r4ZywZ-wB9k7Zwq-pz8P6sDPZj5eMVlWgqzupmJcBs3BED2Is7omq9R9fLgKmxZUlPqV-Wcek21TV2q-3CprVA6sLfhZfq0hVKueg9D2pJOOjJPm-8L9zHmEv42BVctOCyeuA0hXNwti-JI"/>
+</div>
+</section>
+<!-- Promotional Pricing Bento Grid -->
+<section class="space-y-12">
+<div class="text-center space-y-4">
+<h2 class="font-display font-bold text-3xl lg:text-4xl text-on-surface">Servicios Destacados</h2>
+<p class="text-on-surface-variant">Calidad profesional para el cuidado de su pelaje.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="glass-elevated rounded-[1.5rem] p-8 flex flex-col justify-between group hover:border-primary/30 transition-colors relative overflow-hidden md:col-span-2">
+<div class="absolute -right-20 -top-20 w-64 h-64 bg-primary/5 rounded-full blur-3xl group-hover:bg-primary/10 transition-colors"></div>
+<div>
+<div class="flex justify-between items-start mb-6">
+<span class="material-symbols-outlined text-4xl text-primary" style="font-variation-settings: 'FILL' 1;">content_cut</span>
+<span class="bg-tertiary/20 text-tertiary text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Promo</span>
+</div>
+<h3 class="font-headline font-bold text-2xl text-on-surface mb-2">Corte Premium Glacier</h3>
+<p class="text-on-surface-variant text-sm mb-6 max-w-sm">Baño con ozono, corte a tijera personalizado, limpieza de oídos y corte de uñas. El tratamiento real completo.</p>
+</div>
+<div class="flex items-end justify-between mt-auto">
+<div>
+<span class="text-on-surface-variant line-through text-sm">$65.00</span>
+<div class="font-display font-extrabold text-4xl text-primary">$49<span class="text-lg">.99</span></div>
+</div>
+<button class="bg-surface-container-highest text-on-surface p-3 rounded-full hover:bg-primary hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="glass-panel rounded-[1.5rem] p-8 flex flex-col hover:border-tertiary/30 transition-colors">
+<span class="material-symbols-outlined text-3xl text-tertiary mb-4" style="font-variation-settings: 'FILL' 1;">water_drop</span>
+<h3 class="font-headline font-bold text-xl text-on-surface mb-2">Baño Spa Simple</h3>
+<p class="text-on-surface-variant text-sm flex-grow">Hidratación profunda con champú especial y secado suave.</p>
+<div class="mt-6 pt-6 border-t border-outline-variant/30 font-display font-bold text-2xl text-on-surface">
+                            $25.00
+                        </div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="space-y-12">
+<div class="flex items-center gap-4 mb-8">
+<div class="h-px bg-gradient-to-r from-transparent to-primary/30 flex-grow"></div>
+<h2 class="font-display font-bold text-2xl text-on-surface text-center">Lo que dicen nuestros clientes</h2>
+<div class="h-px bg-gradient-to-l from-transparent to-primary/30 flex-grow"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="glass-panel p-8 rounded-2xl relative">
+<span class="material-symbols-outlined absolute top-6 right-6 text-4xl text-primary/20" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest border border-outline-variant/50 overflow-hidden" data-alt="Retrato de cerca de una mujer sonriente con luz suave y natural, estilo fotográfico profesional, paleta de tonos fríos acorde a la marca Glacier." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD-NuF-iThJZ-0AsEhI9PZQQCGrNEGTRugAENstChRLYafeIAAmqOZhV838E0pXVIyKm2njfptqZioKlaNPiXJqI-89OidFIGQpdnZCRTo2HhZdh1MeuzOclqVhhAtwTHmh4AufVgbcBcqcJqnwvFqPN2bmMQTwPlsN8gvD0qZAGxJHKuUj6pribHCxMLozNxVkuglratilLg4nqubvqN0wg_JiFtYo-QAkaGn6QFvX9crybef7ZwhF')"></div>
+<div>
+<h4 class="font-headline font-semibold text-on-surface">María G.</h4>
+<p class="text-xs text-on-surface-variant">Dueña de Max (Poodle)</p>
+</div>
+</div>
+<p class="text-on-surface-variant italic leading-relaxed">"El trato que le dieron a Max fue increíble. Nunca lo había visto tan relajado después de un corte. El lugar se siente como un verdadero spa."</p>
+</div>
+<div class="glass-panel p-8 rounded-2xl relative">
+<span class="material-symbols-outlined absolute top-6 right-6 text-4xl text-primary/20" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest border border-outline-variant/50 overflow-hidden" data-alt="Retrato de un hombre joven con su perro en un parque, iluminación de atardecer suave, estética moderna y limpia, colores fríos y azules de la marca Glacier." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBDUJgskCGglxVMHvuBsARG1yhxoKWmPR9MKuAxCWzpx5TD7-hSlzEx0cVNDQNrBDIwr91bBVbcMiGG4w2fd0-bOYvjjBATn9iHx9I48ww3LhDiBs6eP9qbEaPTgxaVw2_Cr-ZpXAFjVX91Kfmim7ovix-Z-sfOHvpUDGQH_5EVodVVX9-Dd_I4P-hO2A21s7rino2pfHu210cM9j4XtAUMS6ZM2TGQ-7_fhOd5qGFtqkofZi_ZqNm6')"></div>
+<div>
+<h4 class="font-headline font-semibold text-on-surface">Carlos R.</h4>
+<p class="text-xs text-on-surface-variant">Dueño de Luna (Husky)</p>
+</div>
+</div>
+<p class="text-on-surface-variant italic leading-relaxed">"Excelente servicio. Luna tiene mucho pelo y la dejaron impecable. El ambiente es súper premium y huele delicioso."</p>
+</div>
+</div>
+</section>
+<!-- Booking Form -->
+<section class="max-w-2xl mx-auto glass-elevated rounded-[2rem] p-8 md:p-12 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-bl-full blur-2xl"></div>
+<h2 class="font-display font-bold text-3xl text-on-surface mb-2">Reserva tu Turno</h2>
+<p class="text-on-surface-variant mb-8">Déjanos tus datos y nos contactaremos para confirmar el horario.</p>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-sm font-medium text-on-surface-variant block">Tu Nombre</label>
+<input class="w-full bg-surface/50 border border-outline-variant/50 rounded-lg px-4 py-3 text-on-surface focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all placeholder:text-on-surface-variant/50" placeholder="Ej. Juan Pérez" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-medium text-on-surface-variant block">Nombre de tu Mascota</label>
+<input class="w-full bg-surface/50 border border-outline-variant/50 rounded-lg px-4 py-3 text-on-surface focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all placeholder:text-on-surface-variant/50" placeholder="Ej. Firulais" type="text"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-medium text-on-surface-variant block">Servicio de Interés</label>
+<select class="w-full bg-surface/50 border border-outline-variant/50 rounded-lg px-4 py-3 text-on-surface focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all appearance-none">
+<option class="bg-surface-container text-on-surface" value="premium">Corte Premium Glacier</option>
+<option class="bg-surface-container text-on-surface" value="spa">Baño Spa Simple</option>
+<option class="bg-surface-container text-on-surface" value="other">Otro / Consulta</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-medium text-on-surface-variant block">Fecha Preferida</label>
+<input class="w-full bg-surface/50 border border-outline-variant/50 rounded-lg px-4 py-3 text-on-surface focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all css-calendar-icon-dark" type="date"/>
+</div>
+<button class="w-full bg-primary/20 text-primary border border-primary/50 py-4 rounded-xl font-headline font-semibold hover:bg-primary/30 transition-all shadow-[0_0_20px_rgba(125,211,252,0.1)] active:scale-[0.98] mt-4 flex justify-center items-center gap-2" type="submit">
+                        Solicitar Reserva <span class="material-symbols-outlined text-sm">send</span>
+</button>
+</form>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest w-full py-12 border-t border-outline-variant/20 flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto z-10 relative">
+<div class="text-lg font-headline font-bold text-on-surface mb-6 md:mb-0 opacity-80 hover:opacity-100 flex items-center gap-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">pets</span>
+            Glacier Grooming
+        </div>
+<div class="flex gap-6 mb-6 md:mb-0">
+<a class="font-body text-sm text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="font-body text-sm text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+<a class="font-body text-sm text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">Contact Us</a>
+</div>
+<div class="font-body text-sm text-on-surface-variant">
+            © 2024 Glacier Premium Grooming. All rights reserved.
+        </div>
+</footer>
+<style>
+        /* Hide calendar icon on dark mode inputs sometimes tricky, basic fix */
+        input[type="date"]::-webkit-calendar-picker-indicator {
+            filter: invert(1);
+            opacity: 0.5;
+            cursor: pointer;
+        }
+    </style>
+</body></html>
