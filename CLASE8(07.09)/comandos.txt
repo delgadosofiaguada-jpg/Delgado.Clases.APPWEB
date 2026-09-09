@@ -9,9 +9,11 @@ Comandos primera vez(casa):
 
  -Verificar su instalacion: npm -v
 
- -Instalar manejador de paquetes pnpm: npm -g pnpm
+ -Instalar manejador de paquetes pnpm: npm i -g pnpm
 
  -Verificar su instalacion de pnpm: pnpm -v
+ https://pnpm.io/es/
+ https://www.npmjs.com/
 
 
 

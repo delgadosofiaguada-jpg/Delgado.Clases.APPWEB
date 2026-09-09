@@ -1,0 +1,90 @@
+/*
+Sintaxis
+*/
+
+
+
+/*
+Regla de estilo
+
+selector {
+
+    propiedad1: valor;
+    propiedad2: valor;
+}
+*/
+
+
+/*FUENTE*/
+@font-face {
+  font-family: OldStandardTT;
+  src: url(./fuentes/OldStandardTT-Regular.ttf);
+}
+
+
+/*Selectores de TIPO, prioridad, rompe cascada*/
+body{
+    background-color: rgb(229, 215, 248);
+}
+header
+{
+    background-color: #c2e2fc;
+}
+
+/*
+Los selectores de tipo(genericos) hacen match con todas las anclas
+*/
+a{
+    color: #d88ac4;
+    text-decoration:none;
+}
+
+
+html{
+    font-family: OldStandardTT, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*
+Selectores de CLASE
+
+.vinculos{
+    color: #c932a5;
+}
+*/
+
+
+/*SELECTOR UNIVERSAL
+*{
+    outline: 1px rgb(60, 255, 0) solid;
+}
+*/
+
+
+/*ENCABEZADO*/
+.encabezado-principal{
+    background-color: #c2e2fc;
+}
+
+
+.encabezado-principal.vinculos a{
+    color: #c932a5;
+}
+
+/*CONTENIDO PRINCIPAL*/
+.contenido-principal{
+    
+}
+
+
+
+/*PIE PRINCIPAL*/    
+.pie-principal{
+
+}
+
+
+/*ATRIBUTO
+    [href]{
+    }
+*/
