@@ -1,0 +1,126 @@
+/*
+Sintaxis
+*/
+
+
+
+/*
+Regla de estilo
+
+selector {
+
+    propiedad1: valor;
+    propiedad2: valor;
+}
+*/
+
+
+/*FUENTE*/
+@font-face {
+  font-family: OldStandardTT;
+  src: url(./fuentes/OldStandardTT-Regular.ttf);
+}
+
+
+/*Selectores de TIPO, prioridad, rompe cascada*/
+body{
+    background-color: rgb(229, 215, 248);
+}
+header
+{
+    background-color: #c2e2fc;
+}
+
+/*
+Los selectores de tipo(genericos) hacen match con todas las anclas
+*/
+a{
+    color: #d88ac4;
+    text-decoration:none;
+}
+
+
+html{
+    font-family: OldStandardTT, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*
+Selectores de CLASE
+
+.vinculos{
+    color: #c932a5;
+}
+*/
+
+
+/*SELECTOR UNIVERSAL
+*{
+    outline: 1px rgb(60, 255, 0) solid;
+}
+*/
+
+html, body{
+    margin:0;
+}
+
+
+/*ENCABEZADO*/
+.encabezado-principal {
+
+    /*Afecta el comportamiento externo e interno*/
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #c2e2fc;
+    padding: 5px;
+}
+
+
+.encabezado-principal a img {
+    width: 55px;
+}
+.encabezado-principal .vinculos a {
+    color: #e62727;
+}
+/*CONTENIDO PRINCIPAL*/
+.contenido-principal{
+    
+}
+.contenido-principal .contenedor-form{
+
+    padding: 20px 20%
+}
+.contenido-principal .contenedor-form input {
+
+    padding: 10px
+}
+.contenido-principal .contenedor-form select {
+
+    padding: 10px
+}
+.contenido-principal .contenedor-form form{
+    display: flex;
+    flex-direction: column;
+}
+.contenido-principal iframe{
+    width: 100%;
+}
+
+/*PIE PRINCIPAL*/    
+.pie-principal{
+
+}
+
+
+/*ATRIBUTO
+    [href]{
+    }
+*/
+
+
+/* SELECTOR UNIVERSAL BOX SIZING */
+*{
+    box-sizing: border-box;
+}
