@@ -1,0 +1,151 @@
+/*
+Sintaxis
+*/
+
+
+
+/*
+Regla de estilo
+
+selector {
+
+    propiedad1: valor;
+    propiedad2: valor;
+}
+*/
+
+
+/*FUENTE*/
+@font-face {
+  font-family: OldStandardTT;
+  src: url(./fuentes/OldStandardTT-Regular.ttf);
+}
+
+
+/*Selectores de TIPO, prioridad, rompe cascada corresponde a elemento html*/
+body{
+    background-color: rgb(229, 215, 248);
+    height: 400px;
+}
+header
+{
+    background-color: #c2e2fc;
+}
+
+/*
+Los selectores de tipo(genericos) hacen match con todas las anclas
+*/
+a{
+    color: #d88ac4;
+    text-decoration:none;
+}
+
+
+html{ /* ELEMENTO RAIZ, Afecta a todos los textos y se toma como referencia*/
+    font-family: OldStandardTT, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+
+/*
+Selectores de CLASE(Nosotros creamos el nombre)
+
+.vinculos{
+    color: #c932a5;
+}
+*/
+
+
+/*SELECTOR UNIVERSAL
+*{
+    outline: 1px rgb(60, 255, 0) solid;
+}
+*/
+
+html, body{
+    margin:0;
+}
+
+
+/*ENCABEZADO*/
+.encabezado-principal {
+
+    /*Afecta el comportamiento externo e interno*/
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #c2e2fc;
+    padding: 5px;
+    
+}
+
+
+.encabezado-principal a img {
+    width: 55px;
+}
+
+/*CONTENIDO PRINCIPAL*/
+.contenido-principal{
+    background-color: #fff;
+    /*position: relative;*/
+    height: 1500px;
+}
+
+
+.contenido-principal .contenedor-form{
+
+    padding: 20px 20%
+}
+.contenido-principal .contenedor-form input {
+
+    padding: 10px
+}
+.contenido-principal .contenedor-form select {
+
+    padding: 10px
+}
+.contenido-principal .contenedor-form form{
+    display: flex;
+    flex-direction: column;
+}
+.contenido-principal iframe{
+    width: 100%;
+}
+
+/* SELECTOR COMBINADO */
+.contenido-principal .parrafo {
+
+    position: sticky;
+    top:100px ;
+    right: 100px;
+    font-size: 0.9rem; /* rem r:root, relativo a la raiz(html)
+    a la fuente de html lo multiplica por este valor */
+    background-color: rgb(238, 207, 30);
+    width: 200px;
+}
+
+/*PIE PRINCIPAL*/    
+.pie-principal{
+
+}
+
+.pie-principal .mensajeria{
+    list-style: none;
+    position: fixed; /* toma como referencia al viewport */
+    bottom: 20px;
+    right: 20px;
+
+}
+/*ATRIBUTO
+    [href]{
+    }
+*/
+
+
+/* SELECTOR UNIVERSAL BOX SIZING */
+*{
+    box-sizing: border-box;
+}

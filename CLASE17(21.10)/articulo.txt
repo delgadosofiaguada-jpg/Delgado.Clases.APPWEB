@@ -1,0 +1,18 @@
+<article>
+                    <h3>Correa</h3>
+                    <picture>
+                        <img src="recursos/imagenes/productos/correa (1) (2).jpg" alt="correas de colores">
+                    </picture>
+                    <p>
+                        Correa mediana
+                    </p>
+                    <ul>
+                        <li>
+                            Talles M - L 
+                        </li>
+                        <li>
+                            Precio $5.000
+                        </li>
+                    </ul>
+                    <button>Agregar al carrro</button>
+                </article>
