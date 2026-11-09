@@ -1,3 +1,4 @@
+//Arreglo de objetos
 const productosMascotas = [
     {
         nombre: "Collar Ajustable de Nylon",
